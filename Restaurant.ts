@@ -1,7 +1,7 @@
 import mongoose from "npm:mongoose@7.6.3"
 import { Restaurant } from "./TIPOS.ts"
 import { bookingModel } from "./Booking.ts";
-import { clientModel } from "./client.ts";
+import { clientModel } from "./Client.ts";
 
 const Schema = mongoose.Schema
 
