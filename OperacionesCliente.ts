@@ -1,7 +1,7 @@
 import express, {Request, Response} from "npm:express@4.18.2"
 import mongoose from "npm:mongoose@7.6.3"
 
-import { clientModel } from "./client.ts"
+import { clientModel } from "./Client.ts"
 
 export const addclient = async(req:Request, res:Response) => {
     try {
