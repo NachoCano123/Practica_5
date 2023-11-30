@@ -13,8 +13,7 @@ let MONGO_URL= env.MONGO_URL || Deno.env.get("MONGO_URL")
 const PORT= env.PORT || Deno.env.get("PORT") || 3000
 
 if (!MONGO_URL) {
-  //Cuando creas un proyecto denodeploy, vas a settings y en enviroment variables metes el MONGO_URL
-  throw new Error("No url")
+  MONGO_URL="mongodb+srv://nacho:12345@cluster0.3aayvs9.mongodb.net/Practica5?retryWrites=true&w=majority"
 }
 
 try {
